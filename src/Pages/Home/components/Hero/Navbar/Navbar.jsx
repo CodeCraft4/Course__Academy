@@ -34,7 +34,7 @@ const DrawerAppBar = () => {
   window.addEventListener("scroll", changeBgColor);
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center",height:"100vh",bgcolor:"rgb(10,50,64)"}}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center",height:"100vh",bgcolor:"rgb(10,50,63)"}}>
       <Typography sx={{ my: 2, fontWeight: 900 }}>Byfaith</Typography>
       <Divider />
       <List sx={{ mx: 6 }}>
