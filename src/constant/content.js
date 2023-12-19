@@ -75,20 +75,20 @@ export const SERMON_CARD = [
 
 export const WHY_US = [
     {
-        title: 'PEACE WITH GOD',
-        description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
+        title: 'Excellence Online',
+        description: 'Elevate your education with us – where excellence meets online learning.',
     },
     {
-        title: 'RELATIONSHIP FOR THE SOUL',
-        description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
+        title: 'Agile Academics',
+        description: 'Expert instructors, dynamic lessons, and flexible schedules for your success.',
     },
     {
-        title: 'IDENTIFYING LIMITATIONS',
-        description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
+        title: 'Top-Tier Learning',
+        description: 'Choose a top-tier online academy committed to your academic journey.',
     },
     {
-        title: 'HIS KINGDOM',
-        description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
+        title: 'SmartEd Hub',
+        description: 'Join us for a transformative learning experience – education redefined.',
     },
 ]
 

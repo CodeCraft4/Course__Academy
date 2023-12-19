@@ -9,7 +9,7 @@ const HeaderFaith = () => {
           <Grid item md={6} color={"white"} sm={6} xs={12}>
             <Box width={"70%"}>
               <Typography fontSize={{ md: 16, sm: 12, xs: 15 }} p={2}>
-                WELCOME TO BYFAITH CHURCH
+                WELCOME TO ADATOS ACADEMY
               </Typography>
               <Typography
                 fontSize={{ md: "2.5em", sm: "1.3em", xs: "1.5em" }}
@@ -17,11 +17,12 @@ const HeaderFaith = () => {
                 lineHeight={{ md: "50px", sm: "30px" }}
                 p={{ md: 2, sm: 0 }}
               >
-                Oh Safe To the <br /> Rock That Is <br /> Higher Than I
+                Ascend in knowledge with ADATAOS.
               </Typography>
               <Typography fontSize={{ md: 16, sm: 12 }} p={1}>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                Embark on a journey of intellectual ascent with Adatos Academy,
+                where learning reaches new heights and knowledge
+                unfolds at every step.
               </Typography>
               <Button
                 variant="contained"
@@ -38,7 +39,7 @@ const HeaderFaith = () => {
                   },
                 }}
               >
-                GO TO SERMON
+                GO TO ADATOS
               </Button>
             </Box>
           </Grid>
