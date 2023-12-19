@@ -12,6 +12,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { Container, Link } from "@mui/material";
 import DarkBtn from "./DarkBtn";
+import Logo from '../../../../../logo/Picsart_23-12-19_12-43-15-457.png'
 
 
 
@@ -94,7 +95,9 @@ const DrawerAppBar = () => {
                   display: { xs: "none", sm: "block", fontWeight: 800 },
                 }}
               >
-                Byfaith
+                <Link href={'#'}>
+                  <img src={Logo} alt="logo"  style={{width:'50px',height:'50px'}}/>
+                </Link>
               </Typography>
               <List sx={{ display: { xs: "none", sm: "flex", md: "flex" } }}>
                 <ListItem>

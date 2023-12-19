@@ -1,10 +1,11 @@
-import * as React from 'react';
-import PropTypes from 'prop-types';
-import useScrollTrigger from '@mui/material/useScrollTrigger';
-import Box from '@mui/material/Box';
-import Fab from '@mui/material/Fab';
-import Fade from '@mui/material/Fade';
-import { WhatsApp } from '@mui/icons-material';
+import * as React from "react";
+import PropTypes from "prop-types";
+import useScrollTrigger from "@mui/material/useScrollTrigger";
+import Box from "@mui/material/Box";
+import Fab from "@mui/material/Fab";
+import Fade from "@mui/material/Fade";
+import { WhatsApp } from "@mui/icons-material";
+import { Link } from "@mui/material";
 
 function ScrollTop(props) {
   const { children, window } = props;
@@ -18,7 +19,7 @@ function ScrollTop(props) {
     <Fade in={trigger}>
       <Box
         role="presentation"
-        sx={{ position: 'fixed', bottom: 16, right: 20,zIndex:999 }}
+        sx={{ position: "fixed", bottom: 16, right: 20, zIndex: 999 }}
       >
         {children}
       </Box>
@@ -35,9 +36,14 @@ export default function BackToTop(props) {
   return (
     <React.Fragment>
       <ScrollTop {...props}>
-        <Fab size="large" sx={{bgcolor:'green',"&:hover":{bgcolor:'rgb(10,50,64)'}}}>
-          <WhatsApp  fontSize='large' sx={{color:'white'}}/>
-        </Fab>
+        <Link href={"#"}>
+          <Fab
+            size="large"
+            sx={{ bgcolor: "green", "&:hover": { bgcolor: "rgb(10,50,64)" } }}
+          >
+            <WhatsApp fontSize="large" sx={{ color: "white",}} />
+          </Fab>
+        </Link>
       </ScrollTop>
     </React.Fragment>
   );

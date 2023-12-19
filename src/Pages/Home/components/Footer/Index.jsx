@@ -285,7 +285,7 @@ const Footer = () => {
               </Link>
             </Grid>
           </Grid>
-          <Typography sx={{ textAlign: "center", color: "black", p: 2 }}>
+          <Typography sx={{ textAlign: "center", color: "white", p: 2}}>
             Copyright ©2023 All rights reserved | This template is made with by
             Colorlib
           </Typography>
