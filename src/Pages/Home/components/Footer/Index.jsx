@@ -16,27 +16,25 @@ import {
   Twitter,
 } from "@mui/icons-material";
 
-
-
-
 const Footer = () => {
   return (
     <div>
-      <Box bgcolor={"rgb(10,50,64)"} mt={10}>
+      <Box bgcolor={"rgb(10,50,64)"} mt={40}>
         <Container maxWidth="lg">
           <Grid container p={4} spacing={5}>
             <Grid item md={4} color={"black"} sm={6} xs={12}>
-              <Typography fontSize={20} color={"white"} fontWeight={'bold'}>
+              <Typography fontSize={20} color={"white"} fontWeight={"bold"}>
                 Contact
               </Typography>
               <Typography
                 fontSize={14}
                 sx={{
                   borderBottom: "2px solid gray",
+                  color: "orange",
                   width: "40%",
                   pt: 2,
                   "&:hover": {
-                    borderBottom: "2px solid black",
+                    borderBottom: "2px solid orange",
                   },
                 }}
               >
@@ -49,10 +47,11 @@ const Footer = () => {
                 fontSize={14}
                 sx={{
                   borderBottom: "2px solid gray",
+                  color: "orange",
                   width: "60%",
                   pt: 2,
                   "&:hover": {
-                    borderBottom: "2px solid black",
+                    borderBottom: "2px solid orange",
                   },
                 }}
               >
@@ -66,12 +65,12 @@ const Footer = () => {
                 sx={{
                   opacity: ".8",
                   borderBottom: "2px solid gray",
+                  color: "orange",
                   width: "50%",
                   pt: 2,
                   "&:hover": {
                     opacity: 1,
-                    color: "black",
-                    borderBottom: "2px solid black",
+                    borderBottom: "2px solid orange",
                     transition: ".4s",
                   },
                 }}
@@ -86,12 +85,12 @@ const Footer = () => {
                 sx={{
                   opacity: ".8",
                   borderBottom: "2px solid gray",
+                  color: "orange",
                   width: "80%",
                   pt: 2,
                   "&:hover": {
                     opacity: 1,
-                    color: "black",
-                    borderBottom: "2px solid black",
+                    borderBottom: "2px solid orange",
                     transition: ".4s",
                   },
                 }}
@@ -106,12 +105,12 @@ const Footer = () => {
                 sx={{
                   opacity: ".8",
                   borderBottom: "2px solid gray",
+                  color: "orange",
                   width: "85%",
                   pt: 2,
                   "&:hover": {
                     opacity: 1,
-                    color: "black",
-                    borderBottom: "2px solid black",
+                    borderBottom: "2px solid orange",
                     transition: ".4s",
                   },
                 }}
@@ -123,7 +122,7 @@ const Footer = () => {
               </Typography>
             </Grid>
             <Grid item md={3} color={"gray"} sm={6} xs={12}>
-              <Typography fontSize={20} color={"white"} fontWeight={'bold'}>
+              <Typography fontSize={20} color={"white"} fontWeight={"bold"}>
                 Services
               </Typography>
               <Grid container spacing={4}>
@@ -198,7 +197,7 @@ const Footer = () => {
               </Grid>
             </Grid>
             <Grid item md={4} mx={5} sm={6} xs={12}>
-              <Typography fontSize={20} color={"white"} fontWeight={'bold'}>
+              <Typography fontSize={20} color={"white"} fontWeight={"bold"}>
                 Links
               </Typography>
               <List>
@@ -285,7 +284,7 @@ const Footer = () => {
               </Link>
             </Grid>
           </Grid>
-          <Typography sx={{ textAlign: "center", color: "white", p: 2}}>
+          <Typography sx={{ textAlign: "center", color: "white", p: 2 }}>
             Copyright ©2023 All rights reserved | This template is made with by
             Colorlib
           </Typography>
