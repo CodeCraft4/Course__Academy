@@ -36,7 +36,7 @@ export default function BackToTop(props) {
   return (
     <React.Fragment>
       <ScrollTop {...props}>
-        <Link href={"https://api.whatsapp.com/send?phone=+923412764104"}>
+        <Link href={"https://wa.me/+447522063381"}>
           <Fab
             size="large"
             sx={{ bgcolor: "green", "&:hover": { bgcolor: "rgb(10,50,64)" } }}
