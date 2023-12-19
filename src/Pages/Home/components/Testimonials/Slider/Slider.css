@@ -65,3 +65,26 @@
   }
 }
 
+@media screen and (max-width: 330px) {
+  @keyframes next {
+    from {
+      transform: translateX(0px);
+    }
+
+    to {
+      transform: translateX(calc(0px + 85.8vw));
+    }
+  }
+
+  /* Keyframes for the animation when shifting to the previous card */
+  @keyframes prev {
+    from {
+      transform: translateX(0px);
+    }
+
+    to {
+      transform: translateX(calc(0px - 85.8vw));
+    }
+  }
+}
+

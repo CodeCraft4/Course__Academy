@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid, Typography } from "@mui/material";
 import { WHY_US } from "constant/content";
 
 const WhyUs = () => {

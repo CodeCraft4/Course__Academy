@@ -38,7 +38,7 @@ const DrawerAppBar = () => {
     >
       {/* <Typography sx={{ my: 2, fontWeight: 900 }}>Byfaith</Typography> */}
 
-      <img src={Logo} alt="logo" width={"70px"} height={"70px"}/>
+      <img src={Logo} alt="logo" width={"70px"} height={"70px"} />
       <Divider />
       <List sx={{ mx: 6 }}>
         <ListItem>
@@ -91,20 +91,29 @@ const DrawerAppBar = () => {
                 <MenuIcon fontSize="large" />
               </IconButton>
               <Typography
-                variant="h6"
                 component="div"
                 sx={{
                   flexGrow: 1,
-                  display: { xs: "none", sm: "block", fontWeight: 800 },
+                  display: { xs: "none", sm: "block" },
                 }}
               >
-                <Link href={"#"}>
-                  <img
-                    src={Logo}
-                    alt="logo"
-                    style={{ width: "50px", height: "50px" }}
-                  />
-                </Link>
+                <Box
+                  sx={{
+                    textDecoration: "none",
+                    color: "white",
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <Link href={'#'}>
+                    <img
+                      src={Logo}
+                      alt="logo"
+                      style={{ width: "50px", height: "50px" }}
+                    />
+                  </Link>
+                  <Typography mx={1} fontWeight={700}>ADATOS</Typography>
+                </Box>
               </Typography>
               <List sx={{ display: { xs: "none", sm: "flex", md: "flex" } }}>
                 <ListItem>

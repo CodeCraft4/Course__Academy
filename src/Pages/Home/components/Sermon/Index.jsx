@@ -26,7 +26,13 @@ const SermonAbout = () => {
           </Typography>
           <Grid container spacing={5}>
             {SERMON_CARD.map((e) => (
-              <Grid item md={e.grid} sm={6} xs={12}>
+              <Grid
+                item
+                md={e.grid}
+                sm={6}
+                xs={12}
+                display={{ sm:e?.id ? "flex" : "none",md:'flex',xs:'block'}}
+              >
                 {e?.title && (
                   <Box
                     position={"relative"}
@@ -36,13 +42,13 @@ const SermonAbout = () => {
                     zIndex={-999}
                     borderRadius={"50%"}
                     bgcolor={"black"}
-                    outline={'1px solid white'}
+                    outline={"1px solid white"}
                     width={"100%"}
-                    height={{md:'200px',xs:'280px'}}
+                    height={{ md: "190px", xs: "280px",sm:'340px' }}
                   >
                     <Box
                       position={"absolute"}
-                      height={{md:'200px',xs:'280px'}}
+                      height={{ md: "190px", xs: "280px" ,sm:'340px'}}
                       width={"100%"}
                       sx={{ opacity: 0.5 }}
                       zIndex={-1}
