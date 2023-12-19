@@ -12,9 +12,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { Container, Link } from "@mui/material";
 import DarkBtn from "./DarkBtn";
-import Logo from '../../../../../logo/Picsart_23-12-19_12-43-15-457.png'
-
-
+import Logo from "../../../../../logo/Picsart_23-12-19_12-43-15-457.png";
 
 const drawerWidth = 250;
 const DrawerAppBar = () => {
@@ -34,32 +32,37 @@ const DrawerAppBar = () => {
   window.addEventListener("scroll", changeBgColor);
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center",height:"100vh",bgcolor:"rgb(10,50,63)"}}>
-      <Typography sx={{ my: 2, fontWeight: 900 }}>Byfaith</Typography>
+    <Box
+      onClick={handleDrawerToggle}
+      sx={{ textAlign: "center", height: "100vh", bgcolor: "rgb(10,50,63)" }}
+    >
+      {/* <Typography sx={{ my: 2, fontWeight: 900 }}>Byfaith</Typography> */}
+
+      <img src={Logo} alt="logo" width={"70px"} height={"70px"}/>
       <Divider />
       <List sx={{ mx: 6 }}>
         <ListItem>
-          <Link href='#' style={resLink}>
+          <Link href="#" style={resLink}>
             Home
           </Link>
         </ListItem>
         <ListItem>
-          <Link href='#' style={resLink}>
+          <Link href="#" style={resLink}>
             Sermon
           </Link>
         </ListItem>
         <ListItem>
-          <Link href='#' style={resLink}>
+          <Link href="#" style={resLink}>
             Ministries
           </Link>
         </ListItem>
         <ListItem>
-          <Link href='#' style={resLink}>
+          <Link href="#" style={resLink}>
             Event
           </Link>
         </ListItem>
         <ListItem>
-          <Link href='#' style={resLink}>
+          <Link href="#" style={resLink}>
             Contact
           </Link>
         </ListItem>
@@ -95,8 +98,12 @@ const DrawerAppBar = () => {
                   display: { xs: "none", sm: "block", fontWeight: 800 },
                 }}
               >
-                <Link href={'#'}>
-                  <img src={Logo} alt="logo"  style={{width:'50px',height:'50px'}}/>
+                <Link href={"#"}>
+                  <img
+                    src={Logo}
+                    alt="logo"
+                    style={{ width: "50px", height: "50px" }}
+                  />
                 </Link>
               </Typography>
               <List sx={{ display: { xs: "none", sm: "flex", md: "flex" } }}>
@@ -116,18 +123,12 @@ const DrawerAppBar = () => {
                   </Link>
                 </ListItem>
                 <ListItem>
-                  <Link
-                    href='#'
-                    style={linkStyle}
-                  >
+                  <Link href="#" style={linkStyle}>
                     Event
                   </Link>
                 </ListItem>
                 <ListItem>
-                  <Link
-                    href='#'
-                    style={linkStyle}
-                  >
+                  <Link href="#" style={linkStyle}>
                     Contact
                   </Link>
                 </ListItem>
@@ -176,9 +177,9 @@ const linkStyle = {
   color: "white",
 };
 
-const resLink={
-  color:'orange',
-  textDecoration:'none',
-  p:1,
-  borderBottom:"1px solid white"
-}
+const resLink = {
+  color: "orange",
+  textDecoration: "none",
+  p: 1,
+  borderBottom: "1px solid white",
+};
