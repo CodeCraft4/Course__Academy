@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Course__Academy/static/css/main.fc7d4541.css",
-    "main.js": "/Course__Academy/static/js/main.16e67fa2.js",
+    "main.css": "/Course__Academy/static/css/main.c10ac48d.css",
+    "main.js": "/Course__Academy/static/js/main.100a2a59.js",
     "static/media/Picsart_23-12-19_12-43-15-457.png": "/Course__Academy/static/media/Picsart_23-12-19_12-43-15-457.a0fb1b014df17c34fe4e.png",
     "index.html": "/Course__Academy/index.html",
-    "main.fc7d4541.css.map": "/Course__Academy/static/css/main.fc7d4541.css.map",
-    "main.16e67fa2.js.map": "/Course__Academy/static/js/main.16e67fa2.js.map"
+    "main.c10ac48d.css.map": "/Course__Academy/static/css/main.c10ac48d.css.map",
+    "main.100a2a59.js.map": "/Course__Academy/static/js/main.100a2a59.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc7d4541.css",
-    "static/js/main.16e67fa2.js"
+    "static/css/main.c10ac48d.css",
+    "static/js/main.100a2a59.js"
   ]
 }
