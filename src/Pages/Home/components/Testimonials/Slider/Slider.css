@@ -1,6 +1,6 @@
 :root {
   --up: 3;
-  --cardWidth: calc(150vw / var(--up));
+  --cardWidth: calc(170vw / var(--up));
   /* Width of each card */
   --carouselWidth: calc(var(--cardWidth) * var(--num));
   /* Width of the entire carousel */

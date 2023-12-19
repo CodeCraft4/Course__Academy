@@ -16,7 +16,7 @@ import Logo from '../../../../../logo/Picsart_23-12-19_12-43-15-457.png'
 
 
 
-const drawerWidth = 200;
+const drawerWidth = 250;
 const DrawerAppBar = () => {
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -34,32 +34,32 @@ const DrawerAppBar = () => {
   window.addEventListener("scroll", changeBgColor);
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center",height:"100vh",bgcolor:"rgb(10,50,64)"}}>
       <Typography sx={{ my: 2, fontWeight: 900 }}>Byfaith</Typography>
       <Divider />
       <List sx={{ mx: 6 }}>
         <ListItem>
-          <Link href='#' style={linkStyle}>
+          <Link href='#' style={resLink}>
             Home
           </Link>
         </ListItem>
         <ListItem>
-          <Link href='#' style={linkStyle}>
+          <Link href='#' style={resLink}>
             Sermon
           </Link>
         </ListItem>
         <ListItem>
-          <Link href='#' style={linkStyle}>
+          <Link href='#' style={resLink}>
             Ministries
           </Link>
         </ListItem>
         <ListItem>
-          <Link href='#' style={linkStyle}>
+          <Link href='#' style={resLink}>
             Event
           </Link>
         </ListItem>
         <ListItem>
-          <Link href='#' style={linkStyle}>
+          <Link href='#' style={resLink}>
             Contact
           </Link>
         </ListItem>
@@ -175,3 +175,10 @@ const linkStyle = {
   textDecoration: "none",
   color: "white",
 };
+
+const resLink={
+  color:'orange',
+  textDecoration:'none',
+  p:1,
+  borderBottom:"1px solid white"
+}

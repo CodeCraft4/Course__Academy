@@ -4,7 +4,7 @@ import "./Slider.css";
 
 export const CardSlider = ({ img, head, person, description }) => (
   <div>
-    <Box mt={6} width={{ md: 500, xs: 400, sm: 400 }}>
+    <Box mt={6} width={{ md: 500, xs: 250, sm: 340 }}>
       <Typography p={2} fontWeight={"bold"} fontSize={{ md: 20, xs: 15 }}>
         Far far away, behind the word mountains,{head}
       </Typography>
